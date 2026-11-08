@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+# Raw per-domain data stays local: publish aggregates only (see README > Ethics)
+data/*
+!data/.gitkeep
+results/scored_domains.csv
